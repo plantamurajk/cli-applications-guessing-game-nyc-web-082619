@@ -5,7 +5,7 @@ def run_guessing_game
   
   guess = gets
   
-  if (guess == num) then
+  if (guess.to_int == num) then
     puts "You guessed the correct number!"
   else if (guess == 'exit')
     puts "Goodbye!"
