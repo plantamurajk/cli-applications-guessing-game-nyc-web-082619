@@ -3,7 +3,7 @@
 def run_guessing_game
   num = rand(7) 
   
-  guess = gets.chomp
+  guess = gets
   
   if (guess == num) then
     puts "You guessed the correct number!"
