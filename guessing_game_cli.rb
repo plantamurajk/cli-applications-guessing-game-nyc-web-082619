@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def run_guessing_game
-  num = rand(7) 
+  num = rand(6) + 1 
   
   guess = gets
   
